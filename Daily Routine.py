@@ -1,0 +1,13 @@
+print ("Wake Up")
+print("Get Ready For School")
+print("Go To School")
+print("Complete School")
+print("Go Home")
+print("Complete Homework")
+print("Study")
+#input study time
+name = (input("How Many Hours Did You Study?"))
+print("You Studied For " + name + " Hours")
+print("Good Job")              
+print("Go To Sleep")
+print("Repeat Tomorrow")
