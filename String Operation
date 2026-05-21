@@ -1,0 +1,8 @@
+name=input("Enter Your Name:")
+revname=name[::-1]
+print("Your Name Is",name)
+print("Your Name In Reverse Is",revname)
+if name==revname:
+    print("Your Name Is A Palindrome")
+else:
+    print("Your Name Is Not A Palindrome")
