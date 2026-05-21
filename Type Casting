@@ -1,0 +1,16 @@
+a="Marvan"
+print("name",a)
+age=9
+print("age",age)
+isstudent=True
+print(a,"is a student at Codingal,isstudent")
+weight=30.7
+print("weight is",weight)
+print("data type of age is",type(age))
+print("data type of weight is",type(weight))
+print("data type of isstudent is",type(isstudent))
+print("data type of a is",type(a))
+age=str(age)
+print("age data type is",type(age))
+weight=int(weight)
+print("weight data type is",type(weight))
