@@ -1,0 +1,8 @@
+name=input("Enter Your Name: ")
+print("Your Name Is",name)
+name=input("Yes or No? ")
+if name=="Yes":
+    name=input("Confirm Your Name: ")
+    print("Congratulations",name,"!")
+else:
+    print("Write Your Name Correctly And Try Again")
