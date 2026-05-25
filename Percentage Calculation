@@ -1,0 +1,9 @@
+print("Enter marks obtained in 5 subjects")
+E=int(input("English: "))
+M=int(input("Maths: "))
+S=int(input("Science: "))
+H=int(input("History: "))
+C=int(input("Chinese: "))
+total=E+M+S+H+C
+per=(total/500)*100
+print("Percentage is",per)
