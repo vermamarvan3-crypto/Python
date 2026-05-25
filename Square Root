@@ -1,0 +1,4 @@
+number=int(input("Enter a number: "))
+root = number ** 0.5
+print(root)
+print ("The square root of", number, "is", root)
