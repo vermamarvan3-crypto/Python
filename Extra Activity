@@ -1,0 +1,23 @@
+print("Enter money obtained in 7 days")
+M = int(input("Monday: "))
+T = int(input("Tuesday: "))
+W = int(input("Wednesday: "))
+T = int(input("Thursday: "))
+F = int(input("Friday: "))
+S = int(input("Saturday: "))
+SU = int(input("Sunday: "))
+
+total = M + T + W + T + F + S + SU
+
+n100 = total // 100
+n50 = (total % 100) // 50
+n10 = (total % 50) // 10
+n5 = (total % 10) // 5
+n1 = total % 5
+
+print("Total amount is", total)
+print("Notes of 100 HKD", n100)
+print("Notes of 50 HKD", n50)
+print("Notes of 10 HKD", n10)
+print("Notes of 5 HKD", n5)
+print("Notes of 1 HKD", n1)
