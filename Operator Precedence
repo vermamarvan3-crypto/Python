@@ -1,0 +1,13 @@
+v=4
+w=3
+x=5
+y=2
+z=0
+z=(v+w)*x/y ;
+print("Value of (v+w)*x/y is",z)
+name="Marvan"
+age=int(input("Enter Your Age: "))
+if name=="Marvan" and age>8:
+    print("Hello Marvan, Welcome To Codingal")
+else:
+    print("Goodbye")
